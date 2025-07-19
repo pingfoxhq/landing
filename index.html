@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#141619] text-[#f3f4f6] scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PingFox – Privacy-First Analytics and Forms</title>
+    <meta name="description"
+        content="PingFox offers simple, fast, and privacy-focused analytics and forms for developers. No cookies, no IP logging, just insights." />
+    <meta name="keywords"
+        content="analytics, privacy, forms, web analytics, backend analytics, privacy-focused, developer tools" />
+    <meta name="author" content="Jojo Ferret" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="icon" href="logo.png" />
+</head>
+
+<body class="font-sans bg-[#141619] text-[#f3f4f6]">
+
+    <!-- NAVBAR -->
+    <header class="border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="logo.png" alt="PingFox Logo" class="w-8 h-8" />
+                <span class="text-xl font-bold text-[#f97316]">PingFox</span>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm text-gray-300">
+                <a href="#features" class="hover:text-[#f97316]">Features</a>
+                <a href="#usecases" class="hover:text-[#f97316]">Use Cases</a>
+                <a href="#faq" class="hover:text-[#f97316]">FAQ</a>
+            </nav>
+            <a href="#waitlist"
+                class="bg-[#f97316] text-black px-4 py-2 rounded-md font-semibold text-sm hover:scale-105 transition-all duration-200">Join
+                Waitlist</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="text-center py-24 px-6 bg-gradient-to-br from-[#141619] via-[#1e1f24] to-[#141619]">
+        <h1 class="text-4xl sm:text-5xl font-bold mb-6 leading-tight">
+            Simple. Fast. <span class="text-[#f97316]">Privacy-Focused</span> Analytics
+        </h1>
+        <p class="max-w-xl mx-auto text-gray-400 mb-8">
+            Ditch creepy trackers. PingFox offers powerful web & backend analytics that respect your users’ privacy. No
+            cookies. No IP logging. Just the insights you need.
+        </p>
+        <a href="#waitlist" class="bg-[#f97316] text-black px-6 py-3 rounded-lg font-medium hover:scale-105 transition">
+            Get Early Access →
+        </a>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="py-20 px-6 bg-[#1a1c21]">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-4">Built for Developers</h2>
+            <p class="text-gray-400 mb-12 max-w-xl mx-auto">PingFox is lightweight, privacy-first, and works seamlessly
+                with static sites, SPAs, and backend apps.</p>
+
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                <div class="bg-[#1e3a29] p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-[#22c55e] mb-2">Privacy First</h3>
+                    <p class="text-gray-300">We don’t log IPs, set cookies, or track fingerprints. You’re in control of
+                        the data you collect.</p>
+                </div>
+                <div class="bg-[#1e3a4d] p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-[#38bdf8] mb-2">Easy Integration</h3>
+                    <p class="text-gray-300">Use a tiny JS snippet or send events directly from your backend with our
+                        SDK.</p>
+                </div>
+                <div class="bg-[#3d2e1e] p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-[#eab308] mb-2">Form Support</h3>
+                    <p class="text-gray-300">Add privacy-respecting forms in seconds. Host forms with PingFox or embed
+                        them directly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USE CASES -->
+    <section id="usecases" class="py-20 px-6 bg-gradient-to-br from-[#141619] to-[#1e1f24]">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-4">Perfect For</h2>
+            <p class="text-gray-400 mb-12 max-w-xl mx-auto">Whether you're an indie hacker, startup, or enterprise —
+                PingFox works out of the box.</p>
+
+            <div class="flex flex-wrap justify-center gap-6 text-sm font-medium text-gray-300">
+                <span class="bg-[#1e3a29] px-4 py-2 rounded">Portfolio Sites</span>
+                <span class="bg-[#1e3a4d] px-4 py-2 rounded">Startups</span>
+                <span class="bg-[#3f1d1d] px-4 py-2 rounded">SaaS Products</span>
+                <span class="bg-[#3d2e1e] px-4 py-2 rounded">Blogs</span>
+                <span class="bg-[#1e3a4d] px-4 py-2 rounded">Marketing Pages</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- WAITLIST -->
+    <section id="waitlist" class="py-20 px-6 bg-[#1a1c21] text-center">
+        <h2 class="text-3xl font-semibold mb-6">Join the Waitlist</h2>
+        <p class="text-gray-400 mb-8">Get early access, updates, and perks before launch.</p>
+        <form action="#" method="POST" class="max-w-md mx-auto flex gap-2">
+            <input type="email" required placeholder="you@example.com"
+                class="w-full px-4 py-2 bg-[#141619] border border-gray-700 rounded focus:outline-none focus:ring-2 focus:ring-[#f97316]" />
+            <button type="submit"
+                class="bg-[#f97316] text-black px-4 py-2 rounded hover:scale-105 transition">Join</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-6 text-center text-gray-500 text-sm bg-[#141619] border-t border-gray-800">
+        © 2025 PingFox. Made with ☕ by Jojo Ferret.
+    </footer>
+</body>
+
+</html>
